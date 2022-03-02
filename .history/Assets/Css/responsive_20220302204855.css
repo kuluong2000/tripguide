@@ -832,19 +832,6 @@
     width: 130px;
     height: 138px;
   }
-  .header-logo {
-    width: 40vw;
-  }
-  .header-auth__avatar {
-    width: 80%;
-    margin-right: 7px;
-  }
-  .header-language__icon {
-    margin-right: 10px;
-  }
-  .header-language__text {
-    margin-right: 10px;
-  }
   .trending-content__info__name {
     font-size: 18px;
     line-height: 24px;

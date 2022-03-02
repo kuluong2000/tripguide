@@ -815,35 +815,12 @@
   }
 }
 @media (max-width: 400px) {
-  .banner-main__title {
-    font-size: 35px;
-    line-height: 50px;
-  }
-  .header-noti {
-    margin-right: 20px;
-  }
-  .header-noti::before {
-    right: -10px;
-  }
   .header-auth__name {
     display: none;
   }
   .trending-content__img {
     width: 130px;
     height: 138px;
-  }
-  .header-logo {
-    width: 40vw;
-  }
-  .header-auth__avatar {
-    width: 80%;
-    margin-right: 7px;
-  }
-  .header-language__icon {
-    margin-right: 10px;
-  }
-  .header-language__text {
-    margin-right: 10px;
   }
   .trending-content__info__name {
     font-size: 18px;
@@ -856,13 +833,6 @@
   }
   .trending-content__info__rate {
     margin-bottom: 10px;
-  }
-  .trending-content__item {
-    align-items: center;
-  }
-  .trending-content__info__price {
-    font-size: 16px;
-    margin-bottom: 20px;
   }
   .footer-subs__info__desc {
     width: 85vw;
