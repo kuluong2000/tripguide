@@ -1,0 +1,14 @@
+.header {
+    &-logo {
+        width: max-content;
+    }
+    &-info {
+        display: flex;
+    }
+    &-language {
+        display: flex;
+    }
+    &-auth {
+        display: flex;
+    }
+}

@@ -1,0 +1,67 @@
+.travel {
+    background-color: #fbfbfb;
+    padding: 70px 0 244px 0;
+    &-info {
+        &__name {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 70px;
+            letter-spacing: -0.005em;
+            color: $second-color;
+            margin-bottom: 12px;
+        }
+        &__desc {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $second-font;
+            line-height: 24px;
+            color: $thir-color;
+        }
+    }
+    &-content {
+        padding-top: 42px;
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 0;
+        }
+        &__item {
+            width: 270px;
+            position: relative;
+            background-image: linear-gradient(8.54deg, rgba(31, 31, 31, 0.63) 17.12%, rgba(35, 35, 35, 0) 92.69%);
+            z-index: inherit;
+        }
+        &__img {
+            border-radius: 15px;
+            background-image: linear-gradient(8.54deg, rgba(31, 31, 31, 0.63) 17.12%, rgba(35, 35, 35, 0) 92.69%);
+        }
+        &-info {
+            position: absolute;
+            left: 30px;
+            bottom: 17px;
+            &__name {
+                font-family: $second-font;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: white;
+                margin-bottom: 6px;
+            }
+            &__rate {
+                display: flex;
+                align-items: center;
+            }
+            &__icon {
+                width: 18px;
+                height: 18px;
+                object-fit: cover;
+            }
+            &__vote {
+                margin-left: 10px;
+                font-size: 14px;
+                line-height: 21px;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.footer {
+    background-color: #f4f5f6;
+    position: relative;
+    &-subs {
+        padding: 62px 90px;
+        background-color: $color-blue;
+        border-radius: 25px;
+        display: flex;
+    }
+}

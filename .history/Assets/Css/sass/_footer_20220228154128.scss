@@ -1,0 +1,102 @@
+.footer {
+    background-color: #f4f5f6;
+    position: relative;
+    height: 500px;
+    &-subs {
+        background: url("../image/offers.png") no-repeat center / cover;
+        width: 1170px;
+        height: 248px;
+        padding: 62px 90px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        position: absolute;
+        top: -50%;
+        transform: translateY(50%);
+        left: auto;
+        &__info {
+            &__name {
+                font-size: 44px;
+                font-weight: bold;
+                line-height: 52px;
+                color: white;
+                letter-spacing: -0.005em;
+                margin-bottom: 16px;
+            }
+            &__desc {
+                font-family: $thir-font;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 28px;
+                color: white;
+                opacity: 0.88;
+                width: 370px;
+            }
+        }
+        &__form {
+            width: 488px;
+
+            border-radius: 50px !important;
+            position: relative;
+            &__input {
+                padding: 26px 150px 26px 22px;
+                height: 71px;
+                width: 100%;
+                border: none;
+                outline: none;
+                background: #fcfcfd;
+                box-shadow: 10px 16px 60px -7px rgba(0, 0, 0, 0.04);
+                border-radius: 4px;
+                &::placeholder {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: $thir-font;
+                    line-height: 19px;
+                    color: #b1b5c4;
+                }
+            }
+            &__btn {
+                position: absolute;
+                right: 8px;
+                top: 8px;
+                padding: 18px 30px;
+                background: #353945;
+                box-shadow: 0px 12px 20px -5px rgba(23, 23, 126, 0.1);
+                border-radius: 4px;
+                color: white;
+                font-family: $thir-font;
+                width: 500px;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                letter-spacing: -0.02em;
+                text-transform: capitalize;
+                width: max-content;
+            }
+        }
+    }
+    &-main {
+        padding-top: 224px;
+        &__list {
+            display: flex;
+        }
+        &__info {
+            width: 254px;
+            &__desc {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            &__mode {
+                width: 128px;
+                height: 38px;
+                background-color: white;
+                border-radius: 10px;
+                padding: 5px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

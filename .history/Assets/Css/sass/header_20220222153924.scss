@@ -1,0 +1,62 @@
+.header {
+    padding: 20px 0;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-logo {
+        width: max-content;
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+    }
+    &-language {
+        display: flex;
+        &__text {
+            font-family: $thir-font;
+            font-weight: 700;
+            line-height: 20px;
+            margin-right: 14px;
+        }
+        &__icon {
+            width: 100%;
+            margin-right: 17px;
+        }
+    }
+    &-noti {
+        padding-right: 15px;
+        position: relative;
+        margin-right: 36px;
+        line-height: 1;
+        cursor: pointer;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 32px;
+            background-color: #e7ecf3;
+            right: 0;
+            top: 0;
+        }
+    }
+    &-auth {
+        display: flex;
+        align-items: center;
+        &__avatar {
+            width: 100%;
+            margin-right: 10px;
+        }
+        &__dropdown {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        &__name {
+            margin-right: 17px;
+            font-family: $thir-font;
+            font-weight: 500;
+        }
+    }
+}

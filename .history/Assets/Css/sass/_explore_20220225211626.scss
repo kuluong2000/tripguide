@@ -1,0 +1,35 @@
+.explore {
+    padding-top: 70px;
+    &-title {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 70px;
+        color: $second-color;
+        letter-spacing: -0.005em;
+        margin-bottom: 12px;
+    }
+    &-desc {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: $thir-color;
+        font-family: $second-font;
+    }
+    &-content {
+        padding-top: 50px;
+    }
+    &-item {
+        background-color: white;
+        border: 1px solid #e7ecf3;
+        border-radius: 20px;
+        width: 270px;
+
+        padding: 14px;
+        &__img {
+            width: 242px;
+            height: 152px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    }
+}

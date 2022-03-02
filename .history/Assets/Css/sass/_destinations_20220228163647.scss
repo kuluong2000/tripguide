@@ -1,0 +1,156 @@
+.destination {
+    padding-top: 60px;
+    &-name {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 70px;
+        color: $second-color;
+        letter-spacing: -0.005em;
+        margin-bottom: 12px;
+    }
+    &-desc {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: $second-font;
+        line-height: 24px;
+    }
+    &-content {
+        margin-top: 37px;
+        &__list {
+            display: grid;
+            grid-template-rows: 220px 30px 166px 220px;
+            grid-template-columns: auto auto auto;
+            gap: 30px 30px;
+            grid-template-areas:
+                "h1 h1 h2"
+                "h1 h1 h5"
+                "h3 h4 h5"
+                "h3 h4 h6";
+        }
+        &__item {
+            position: relative;
+            &__rate {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 66px;
+                height: 28px;
+                padding: 2px 20px;
+                background-color: white;
+                color: red;
+                border-radius: 20px;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: bold;
+            }
+            &__name {
+                position: absolute;
+                left: 30px;
+                font-weight: bold;
+                color: white;
+            }
+            &__avator {
+                position: absolute;
+                left: 30px;
+                display: flex;
+                align-items: center;
+            }
+            &__avatar {
+                border-radius: 100%;
+                object-fit: cover;
+            }
+            &__status {
+                font-weight: 400;
+                color: white;
+            }
+        }
+        &__item:first-child {
+            grid-area: h1;
+        }
+        &__item:first-child > &__item__name {
+            font-size: 40px;
+            line-height: 24px;
+            font-weight: bold;
+            bottom: 64px;
+        }
+        &__item:first-child > &__item__avator > &__item__avatar {
+            margin-right: 11px;
+            width: 28px;
+            height: 28px;
+        }
+        &__item:first-child > &__item__avator > &__item__status {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &__item:nth-child(2) {
+            grid-area: h2;
+            // width: 270px;
+            // height: 100%;
+        }
+        &__item:nth-child(2) > &__item__name,
+        &__item:nth-child(5) > &__item__name,
+        &__item:nth-child(6) > &__item__name {
+            bottom: 33px;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        &__item:first-child > &__item__avator,
+        &__item:nth-child(2) > &__item__avator,
+        &__item:nth-child(5) > &__item__avator,
+        &__item:nth-child(6) > &__item__avator {
+            bottom: 14px;
+        }
+        &__item:nth-child(2) > &__item__avator > &__item__status,
+        &__item:nth-child(5) > &__item__avator > &__item__status,
+        &__item:nth-child(6) > &__item__avator > &__item__status {
+            font-size: 10px;
+            color: white;
+            line-height: 15px;
+        }
+        &__item:nth-child(2) > &__item__avator > &__item__avatar,
+        &__item:nth-child(5) > &__item__avator > &__item__avatar,
+        &__item:nth-child(6) > &__item__avator > &__item__avatar {
+            width: 10px;
+            height: 10px;
+            margin-right: 7px;
+        }
+        &__item:nth-child(3) {
+            // width: 408px;
+            // height: 100%;
+            margin-right: 24px;
+            grid-area: h3;
+        }
+        &__item:nth-child(4) {
+            grid-area: h4;
+            // width: 408px;
+            // height: 100%;
+        }
+        &__item:nth-child(3) > &__item__name,
+        &__item:nth-child(4) > &__item__name {
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: bold;
+            bottom: 51px;
+        }
+        &__item:nth-child(3) > &__item__avator,
+        &__item:nth-child(4) > &__item__avator {
+            bottom: 18px;
+        }
+        &__item:nth-child(3) > &__item__avator > &__item__avatar,
+        &__item:nth-child(4) > &__item__avator > &__item__avatar {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+        &__item:nth-child(5) {
+            grid-area: h5;
+            // width: 270px;
+            // height: 100%;
+        }
+        &__item:nth-child(6) {
+            grid-area: h6;
+            // width: 270px;
+            // height: 100%;
+        }
+    }
+}

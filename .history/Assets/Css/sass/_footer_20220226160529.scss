@@ -1,0 +1,48 @@
+.footer {
+    background-color: #f4f5f6;
+    position: relative;
+    &-subs {
+        padding: 62px 90px;
+        background-color: $color-blue;
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        &__info {
+            &__name {
+                font-size: 44px;
+                font-weight: bold;
+                line-height: 52px;
+                color: white;
+                letter-spacing: -0.005em;
+                margin-bottom: 16px;
+            }
+            &__desc {
+                font-family: $thir-font;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 28px;
+                color: white;
+                opacity: 0.88;
+                width: 370px;
+            }
+        }
+        &__form {
+            width: 488px;
+            background-color: white;
+            border-radius: 10px;
+            position: relative;
+            &__input {
+                padding: 26px 22px;
+                height: 71px;
+                width: 100%;
+                border: none;
+                outline: none;
+            }
+            &__btn {
+                position: absolute;
+                right: 8px;
+            }
+        }
+    }
+}

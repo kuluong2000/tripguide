@@ -1,0 +1,24 @@
+.header {
+    padding: 20px 0;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-logo {
+        width: max-content;
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+    }
+    &-language {
+        display: flex;
+    }
+    &-auth {
+        display: flex;
+        &_-dropdown {
+            display: flex;
+        }
+    }
+}

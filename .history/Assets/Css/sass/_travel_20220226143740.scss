@@ -1,0 +1,14 @@
+.travel {
+    background-color: #fbfbfb;
+    padding-top: 70px;
+    &-info {
+        &__name {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 70px;
+            letter-spacing: -0.005em;
+            color: $second-color;
+            margin-bottom: 12px;
+        }
+    }
+}

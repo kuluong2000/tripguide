@@ -1,0 +1,27 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1170px;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner-content {
+    width: 1140px;
+  }
+  .destination-content__list {
+    gap: 25px 25px;
+  }
+  .footer-main {
+    margin: 220px auto 120px;
+  }
+  .footer-subs {
+    width: 1140px;
+  }
+  .footer-main__info {
+    width: 200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}

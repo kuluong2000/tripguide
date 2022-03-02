@@ -1,0 +1,100 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1170px;
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner-content {
+    width: 1140px;
+  }
+  .destination-content__list {
+    gap: 25px 25px;
+  }
+  .travel {
+    padding: 70px 0 210px 0;
+  }
+  .footer-main {
+    margin: 220px auto 120px;
+  }
+  .footer-subs {
+    width: 1140px;
+    transform: translateY(80%);
+  }
+  .footer-main__col {
+    margin-left: 130px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner {
+    height: 455px;
+  }
+  .banner-main__title {
+    font-size: 50px;
+  }
+  .banner-content {
+    width: 960px;
+    padding: 15px 35px;
+  }
+  .banner-option {
+    padding-bottom: 20px;
+  }
+  .banner-info {
+    margin-top: 20px;
+  }
+  .banner-info__name {
+    line-height: 18px;
+  }
+  .banner-info__destination {
+    width: 200px;
+    padding: 10px 20px;
+  }
+  .banner-info__section {
+    width: 230px;
+  }
+  .theworld {
+    padding-top: 105px;
+  }
+  .theworld-title {
+    font-size: 45px;
+    margin-top: 15px;
+  }
+  .theworld-content__list {
+    gap: 20px 20px;
+  }
+
+  .theworld-content__item {
+    padding: 20px 0 20px 15px;
+  }
+  .theworld-content__name {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 15px 0 10px 0;
+  }
+  .theworld-content__desc {
+    line-height: 18px;
+  }
+  .destination {
+    padding-top: 40px;
+  }
+  .destination-name {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+  .destination-content {
+    margin-top: 30px;
+  }
+  .destination-content__list {
+    gap: 20px 20px;
+  }
+  .destination-content__item:nth-child(3) {
+    margin-right: 15px;
+  }
+  .destination-content__item__img {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}

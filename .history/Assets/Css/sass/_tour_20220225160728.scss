@@ -1,0 +1,91 @@
+.tour {
+    padding-top: 70px;
+
+    &-info {
+        &__name {
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 70px;
+            letter-spacing: -0.005em;
+            color: $second-color;
+            margin-bottom: 12px;
+        }
+        &__desc {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: $second-font;
+            color: #777e90;
+        }
+    }
+    &-content {
+        padding-top: 60px;
+        .slick-prev:before {
+            content: url("../image/arrow-left.png");
+            font-size: none;
+        }
+        .slick-next:before {
+            content: url("../image/arrow-right.png");
+            font-size: 0;
+        }
+
+        .slick-prev {
+            left: -25px;
+            width: 30px;
+            height: 30px;
+            background: red;
+            display: flex;
+            align-items: center;
+            line-height: 1;
+            border-radius: 100%;
+        }
+    }
+    &-item {
+        position: relative;
+        background: linear-gradient(
+            175.54deg,
+            rgba(2, 0, 14, 0.13) 9.38%,
+            rgba(42, 34, 101, 0) 47.26%,
+            rgba(15, 11, 44, 0.6) 92.77%
+        );
+        width: max-content;
+        border-radius: 20px;
+        &__title {
+            padding: 12px 28px;
+            background: rgba(20, 20, 22, 0.2);
+            backdrop-filter: blur(4px);
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            top: 30px;
+            left: 35px;
+            border-radius: 50px;
+        }
+        &__info {
+            position: absolute;
+            bottom: 34px;
+            left: 35px;
+        }
+        &__img {
+            width: 100%;
+            object-fit: cover;
+        }
+        &__name {
+            font-size: 34px;
+            line-height: 44px;
+            letter-spacing: -0.005em;
+            font-weight: bold;
+            color: #fcfcfd;
+            text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
+            margin-bottom: 8px;
+        }
+        &__desc {
+            font-size: 16px;
+            line-height: 24px;
+            font-family: $second-font;
+            opacity: 0.9;
+            color: #fcfcfd;
+        }
+    }
+}

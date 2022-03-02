@@ -1,0 +1,97 @@
+.destination {
+    padding-top: 60px;
+    &-name {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 70px;
+        color: $second-color;
+        letter-spacing: -0.005em;
+        margin-bottom: 12px;
+    }
+    &-desc {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: $second-font;
+        line-height: 24px;
+    }
+    &-content {
+        margin-top: 37px;
+        &__list {
+            display: grid;
+            grid-template-rows: 280px 158px 280px;
+            grid-template-columns: auto auto auto;
+            gap: 30px 30px;
+            grid-template-areas:
+                "h1 h1 h2"
+                "h1 h1 h5"
+                "h3 h4 h5"
+                "h3 h4 h6";
+        }
+        &__item {
+            position: relative;
+            width: 100%;
+
+            &__rate {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 66px;
+                height: 28px;
+                padding: 2px 20px;
+                background-color: white;
+                border-radius: 20px;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: bold;
+            }
+            &__name {
+                position: absolute;
+                top: 192px;
+                left: 30px;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 24px;
+                color: white;
+            }
+            &__avator {
+                position: absolute;
+                top: 236px;
+                left: 30px;
+                display: flex;
+                align-items: center;
+            }
+            &__avatar {
+                width: 28.57px;
+                height: 28.57px;
+                border-radius: 100%;
+                object-fit: cover;
+                margin-right: 11px;
+            }
+            &__status {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                color: white;
+            }
+        }
+        &__item:first-child {
+            grid-area: h1;
+            font-size: 20px;
+        }
+        &__item:nth-child(2) {
+            grid-area: h2;
+        }
+        &__item:nth-child(3) {
+            grid-area: h3;
+        }
+        &__item:nth-child(4) {
+            grid-area: h4;
+        }
+        &__item:nth-child(5) {
+            grid-area: h5;
+        }
+        &__item:nth-child(6) {
+            grid-area: h6;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.destination {
+    padding-top: 60px;
+    &-name {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 70px;
+        color: $second-color;
+        letter-spacing: -0.005em;
+        margin-bottom: 12px;
+    }
+    &-desc {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: $second-font;
+        line-height: 24px;
+    }
+    &-content {
+        margin-top: 37px;
+        &__item {
+            position: relative;
+            &__rate {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 66px;
+                height: 28px;
+                padding: 2px 20px;
+                background-color: white;
+                border-radius: 20px;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: bold;
+            }
+            &__name {
+                position: absolute;
+                bottom: -64px;
+                left: 30px;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 24px;
+                color: white;
+            }
+        }
+    }
+}

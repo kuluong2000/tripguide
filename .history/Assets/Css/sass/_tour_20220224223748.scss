@@ -1,0 +1,36 @@
+.tour {
+    padding-top: 70px;
+    &-info {
+        &__name {
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 70px;
+            letter-spacing: -0.005em;
+            color: $second-color;
+            margin-bottom: 12px;
+        }
+        &__desc {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: $second-font;
+            color: #777e90;
+        }
+    }
+    &-content {
+        padding-top: 60px;
+    }
+    &-item {
+        position: relative;
+        &__title {
+            padding: 12px 28px;
+            background-color: #e9ebf3;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            top: 30px;
+            left: 35px;
+        }
+    }
+}

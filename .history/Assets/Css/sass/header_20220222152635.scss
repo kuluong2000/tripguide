@@ -1,0 +1,35 @@
+.header {
+    padding: 20px 0;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-logo {
+        width: max-content;
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+    }
+    &-language {
+        display: flex;
+    }
+    &-auth {
+        display: flex;
+        align-items: center;
+        &__avatar {
+            width: 100%;
+            margin-right: 10px;
+        }
+        &__dropdown {
+            display: flex;
+            align-items: center;
+        }
+        &__name {
+            margin-right: 17px;
+            font-family: $thir-font;
+            font-weight: 500;
+        }
+    }
+}
