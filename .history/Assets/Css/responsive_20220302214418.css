@@ -683,7 +683,7 @@
     margin-left: 20px;
   }
   .explore-content .slick-list {
-    margin-left: 0;
+    margin-left: -20px;
   }
   .trending {
     margin-top: 30px;

@@ -683,7 +683,7 @@
     margin-left: 20px;
   }
   .explore-content .slick-list {
-    margin-left: 0;
+    margin-left: -20px;
   }
   .trending {
     margin-top: 30px;
@@ -692,6 +692,12 @@
   .trending-info {
     padding-top: 12px;
   }
+  .trending-info__name {
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
   .trending-content__info__name {
     word-break: break-word;
     display: -webkit-box;
@@ -699,13 +705,6 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  .trending-info__name {
-    font-size: 30px;
-    line-height: 42px;
-    text-align: center;
-    margin-bottom: 14px;
-  }
-
   .trending-info__desc {
     font-size: 14px;
     line-height: 21px;

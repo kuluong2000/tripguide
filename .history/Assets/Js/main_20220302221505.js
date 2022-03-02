@@ -3,8 +3,6 @@ $(".tour-slick").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows: true,
-  autoplay: true,
-  autoplaySpeed: 3000,
   responsive: [
     {
       breakpoint: 767,

@@ -680,10 +680,10 @@
     padding-top: 30px;
   }
   .explore-content .slick-initialized .slick-slide {
-    margin-left: 20px;
+    margin-left: 0;
   }
   .explore-content .slick-list {
-    margin-left: 0;
+    margin-left: -20px;
   }
   .trending {
     margin-top: 30px;

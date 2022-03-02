@@ -3,8 +3,6 @@ $(".tour-slick").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows: true,
-  autoplay: true,
-  autoplaySpeed: 3000,
   responsive: [
     {
       breakpoint: 767,
@@ -12,7 +10,28 @@ $(".tour-slick").slick({
     },
   ],
 });
+// $(() => {
+//   var createSlick = () => {
+//     let slider = $(".tour-slick");
 
+//     slider.not(".slick-initialized").slick({
+//       infinite: true,
+//       slidesToShow: 3,
+//       slidesToScroll: 1,
+//       arrows: true,
+//       responsive: [
+//         {
+//           breakpoint: 767,
+//           settings: "unslick",
+//         },
+//       ],
+//     });
+//   };
+
+//   createSlick();
+
+//   $(window).on("resize orientationchange", createSlick);
+// });
 $(".explore-slider").slick({
   infinite: true,
   slidesToShow: 4,
@@ -42,28 +61,6 @@ $(".explore-slider").slick({
     },
   ],
 });
-// $(() => {
-//   var createSlick = () => {
-//     let slider = $(".tour-slick");
-
-//     slider.not(".slick-initialized").slick({
-//       infinite: true,
-//       slidesToShow: 3,
-//       slidesToScroll: 1,
-//       arrows: true,
-//       responsive: [
-//         {
-//           breakpoint: 767,
-//           settings: "unslick",
-//         },
-//       ],
-//     });
-//   };
-
-//   createSlick();
-
-//   $(window).on("resize orientationchange", createSlick);
-// });
 // $(() => {
 //   var createSlick = () => {
 //     let slider = $(".explore-slider");
