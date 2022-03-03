@@ -14,19 +14,6 @@ body {
     border-radius: 10px;
     text-decoration: none;
 }
-.daterangepicker {
-    background: #ffffff;
-    border: 1px solid #f4f5f6;
-    box-shadow: 0px 12px 60px rgb(89 89 89 / 10%);
-    border-radius: 20px;
-    transform: translate(-10%, 10px);
-}
-.daterangepicker .drp-buttons {
-    padding: 15px;
-}
-.daterangepicker .drp-buttons .btn {
-    margin-left: 0px;
-}
 .daterangepicker:after,
 .daterangepicker:before {
     display: none;

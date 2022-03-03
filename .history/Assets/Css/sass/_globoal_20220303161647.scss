@@ -21,11 +21,8 @@ body {
     border-radius: 20px;
     transform: translate(-10%, 10px);
 }
-.daterangepicker .drp-buttons {
-    padding: 15px;
-}
-.daterangepicker .drp-buttons .btn {
-    margin-left: 0px;
+.daterangepicker.show-calendar .drp-buttons {
+    display: none;
 }
 .daterangepicker:after,
 .daterangepicker:before {

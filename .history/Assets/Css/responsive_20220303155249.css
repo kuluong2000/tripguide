@@ -286,8 +286,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px 15px;
-    position: relative;
-    z-index: -1;
   }
   .theworld-content__item {
     padding: 15px 0 15px 15px;
@@ -511,17 +509,10 @@
     padding: 20px 20px;
   }
   .banner-info__dialog {
-    width: 80vw;
+    width: 70vw;
     padding: 12px;
     border-radius: 10px;
   }
-  .banner-info__label__truncate {
-    margin-bottom: 2px;
-  }
-  .banner-info__result:not(:last-child) {
-    margin-bottom: 10px;
-  }
-
   .banner-option {
     margin-right: 0;
     flex-direction: column;
@@ -855,12 +846,6 @@
   }
   .header-auth__name {
     display: none;
-  }
-  .banner-info__dialog {
-    width: 90vw;
-  }
-  .banner-info__result:not(:last-child) {
-    margin-bottom: 5px;
   }
   .trending-content__img {
     width: 130px;

@@ -17,15 +17,12 @@ body {
 .daterangepicker {
     background: #ffffff;
     border: 1px solid #f4f5f6;
-    box-shadow: 0px 12px 60px rgb(89 89 89 / 10%);
+
+    box-shadow: 0px 12px 60px rgba(89, 89, 89, 0.1);
     border-radius: 20px;
-    transform: translate(-10%, 10px);
 }
-.daterangepicker .drp-buttons {
-    padding: 15px;
-}
-.daterangepicker .drp-buttons .btn {
-    margin-left: 0px;
+.daterangepicker.show-calendar .drp-buttons {
+    display: none;
 }
 .daterangepicker:after,
 .daterangepicker:before {

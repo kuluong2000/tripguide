@@ -48,39 +48,9 @@ inputDes.addEventListener("click", () => {
   dialog.classList.add("active");
 });
 document.addEventListener("click", (e) => {
-  if (!inputDes.contains(e.target)) {
-    dialog.classList.remove("active");
+  if (inputDes.classList.matches(".banner-info__inputDes")) {
+    console.log("a");
+  } else {
+    console.log("object");
   }
-});
-$(function () {
-  $('input[name="checkin"]').daterangepicker({
-    autoUpdateInput: false,
-    locale: {
-      cancelLabel: "Clear",
-    },
-  });
-
-  $('input[name="checkin"]').on("apply.daterangepicker", function (ev, picker) {
-    $(this).val(picker.startDate.format("MM/DD/YYYY") + " - " + picker.endDate.format("MM/DD/YYYY"));
-  });
-
-  $('input[name="checkin"]').on("cancel.daterangepicker", function (ev, picker) {
-    $(this).val("");
-  });
-});
-$(function () {
-  $('input[name="checkout"]').daterangepicker({
-    autoUpdateInput: false,
-    locale: {
-      cancelLabel: "Clear",
-    },
-  });
-
-  $('input[name="checkout"]').on("apply.daterangepicker", function (ev, picker) {
-    $(this).val(picker.startDate.format("MM/DD/YYYY") + " - " + picker.endDate.format("MM/DD/YYYY"));
-  });
-
-  $('input[name="checkout"]').on("cancel.daterangepicker", function (ev, picker) {
-    $(this).val("");
-  });
 });
